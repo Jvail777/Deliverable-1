@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #20a8b4;
+  color: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  border: 0px;
+}
+.nav-list {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  margin: 4px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #ff5c0f;
+}
+button:hover {
+  background-color: #ff5c0f;
+}
+#code-img {
+  visibility: hidden;
+}
+.learnTo {
+  color: #20a8b4;
+}
+.code {
+  color: #ff5c0f;
+}
+.ltc {
+  color: #ff5c0f;
+}
+#contact {
+  width: 100%;
+  cursor: pointer;
+}
+#learn {
+  width: 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    display: flex;
+    align-items: center;
+  }
+  .list {
+    margin-left: auto;
+  }
+  h1 {
+    margin: 10px;
+  }
+  button {
+    background-color: #20a8b4;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0px;
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .nav-list li {
+    display: inline;
+    margin-right: 1em;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: #ff5c0f;
+  }
+  button:hover {
+    background-color: #ff5c0f;
+  }
+  /*This is the img*/
+  #code-img {
+    float: right;
+  }
+  section {
+    margin-top: 10em;
+  }
+  img {
+    margin-top: 5em;
+    margin-right: 10em;
+  }
+  .ltc {
+    color: #ff5c0f;
+  }
+  .learnTo {
+    color: #20a8b4;
+  }
+  .code {
+    color: #ff5c0f;
+  }
+
+  .LearnToCode {
+    display: flex;
+    flex-direction: row;
+  }
+  #code-img {
+    visibility: unset;
+  }
+  #learn {
+    width: auto;
+  }
+  #contact {
+    width: auto;
+  }
+}
